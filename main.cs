@@ -11,7 +11,7 @@ namespace Tutorial
 
         public static bool IsThirdDigit(int num, double target)
         {
-            int num1 = num / 100;
+            int num1     = num / 100;
             double resul = num1 % 10;
 
             return (resul == target ? true : false);
